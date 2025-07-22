@@ -93,10 +93,12 @@
                     </p>
 
                   </div>
+                  <% if(currUser && currUser._id.equals(review.author._id)) { %>
                   <form class="mt-1 mb-3" method="post"
                     action="/listings/<%=listing._id%>/reviews/<%=review._id%>?_method=DELETE">
                     <button class="btn btn-sm btn-dark">Delete</button>
                   </form>
+                  <% } %>
                 </div>
                 <% } %>
             </div>
