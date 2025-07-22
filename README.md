@@ -1,4 +1,4 @@
-# 🏠 Node.js Application Inspired by Airbnb
+# 🏠 Node.js Application 'Wanderlust' Inspired by Airbnb
 
 A full-stack web application built with **Node.js**, **Express**, and **MongoDB**, following the **MVC architecture**. It features secure user authentication using **Passport.js**, session management, and is designed to be **modular**, **scalable**, and easy to extend. Inspired by Airbnb, this project allows users to manage and explore rental listings efficiently.
 
